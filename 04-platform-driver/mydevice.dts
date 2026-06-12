@@ -1,0 +1,17 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "arm,vexpress";
+
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            mydevice {
+                compatible = "likith,mydevice";
+                label = "BeagleBone Learning Device";
+                status = "okay";
+            };
+        };
+    };
+};
