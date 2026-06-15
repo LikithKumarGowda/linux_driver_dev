@@ -1,0 +1,1 @@
+savedcmd_gpio_driver.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/likith/buildroot/output/build/linux-6.18.7/scripts/module.lds -o gpio_driver.ko gpio_driver.o gpio_driver.mod.o .module-common.o
