@@ -19,3 +19,5 @@ No physical hardware required.
 6. **Interrupt/Timer Handling** — kernel timers firing every 2 seconds
 7. **I2C Driver** — virtual temperature sensor over I2C
 8. **Kernel Timers & Workqueues** — interrupt context vs process context
+9. **DMA** — concepts only (not implemented, QEMU vexpress hardware limitation)
+10. **Sysfs Driver** — exposing driver state via /sys/kernel/ attributes
